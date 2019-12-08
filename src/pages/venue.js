@@ -44,7 +44,7 @@ const ButtonContainer = styled.div`
 
 const Camping = () => (
   <Layout>
-    <a name="venue"></a>
+    {/* <a name="venue"></a> */}
     <Title>Marche Manor</Title>
     <Text>
       If using a Sat Nav it will tell you that youve arrived when you haven't

@@ -3,7 +3,7 @@ import styled from "styled-components"
 import theme from "../styles/theme"
 import { Link, List, Button, Title, Subtitle, Text } from "../styles/typography"
 
-import Image from "../components/image"
+import BrightonPhoto from "../images/brighton.jpg"
 
 const Layout = styled.div`
   width: 100%;
@@ -29,9 +29,22 @@ const Spacer = styled.div`
   margin-bottom: 80px;
 `
 
+const Image = styled.div`
+  margin-top: 50px;
+  background-image: url(${BrightonPhoto});
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    height: 350px;
+  }
+`
+
 const Camping = () => (
   <Layout>
-    <a name="camping"></a>
+    {/* <a name="camping"></a> */}
     <Title>Carefree campers</Title>
     <Text>BBQs, breakfasts and a bloody good time.</Text>
     <Text>
@@ -138,7 +151,7 @@ const Camping = () => (
       <TableColumn>01743 242424</TableColumn>
     </TableRow>
     <br />
-    <Image imageRef={"brighton.jpg"} />
+    <Image />
   </Layout>
 )
 
