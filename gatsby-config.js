@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Chris and Rosalys Wedding`,
     description: `The summer wedding of Chris and Rosalys in the Shropshire countryside`,
-    author: `@gatsbyjs`,
+    author: `@chrismhs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,7 +16,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `Chris and Rosalys Wedding`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Chris and Rosalys Wedding`,
         short_name: `Wedding`,
