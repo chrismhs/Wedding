@@ -15,7 +15,7 @@ import Header from "./header"
 import "./layout.css"
 
 import "typeface-playfair-display-sc"
-import "typeface-pt-serif"
+import "typeface-crimson-text"
 
 const Footer = styled.footer`
   padding: 30px 0;
