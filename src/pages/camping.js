@@ -23,9 +23,9 @@ const TableColumn = styled.td`
   min-width: 150px;
 `
 
-const Space = styled.div`
+const Spacer = styled.div`
   height: 40px;
-  border-bottom: 1px solid #002e1d;
+  border-bottom: 1px solid ${theme.darkgreen};
   margin-bottom: 80px;
 `
 
@@ -65,7 +65,7 @@ const Camping = () => (
     <Text>
       Password:<b> marchemanor</b>
     </Text>
-    <Space />
+    <Spacer>b</Spacer>
     <Title>Nearby accommodation</Title>
     <Text>
       The house is 25 minutes drive from Shrewsbury but there are a few local
