@@ -44,7 +44,6 @@ const Image = styled.div`
 
 const Camping = () => (
   <Layout>
-    {/* <a name="camping"></a> */}
     <Title>Carefree campers</Title>
     <Text>BBQs, breakfasts and a bloody good time.</Text>
     <Text>

@@ -103,7 +103,7 @@ const Ring = styled.svg`
 const DownArrow = styled.div`
   position: absolute;
   left: 50%;
-  bottom: 75px;
+  bottom: 80px;
   display: block;
   text-align: center;
   font-size: 20px;
@@ -162,10 +162,6 @@ const DownArrow = styled.div`
       opacity: 0;
     }
   }
-
-  @media (max-width: 500px) {
-    bottom: 40px;
-  }
 `
 
 const Welcome = () => (
@@ -174,8 +170,8 @@ const Welcome = () => (
       <IntroContainer>
         <Intro>
           <TitleCenter>
-            <div>C</div>
-            <div>
+            <span>C</span>
+            <span>
               <Plus
                 width="26"
                 height="26"
@@ -185,8 +181,8 @@ const Welcome = () => (
               >
                 <path d="M13.9272 12.5H25.5272V14H13.9272V25.75H12.1272V14H0.477173V12.5H12.1272V0.700012H13.9272V12.5Z" />
               </Plus>
-            </div>
-            <div>R</div>
+            </span>
+            <span>R</span>
           </TitleCenter>
         </Intro>
         <RingContainer>

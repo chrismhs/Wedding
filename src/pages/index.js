@@ -14,10 +14,18 @@ const IndexPage = () => (
     <SEO title="Home" />
 
     <Welcome />
-    <Intro />
-    <Wedding />
-    <Camping />
-    <Venue />
+    <section id="welcome">
+      <Intro />
+    </section>
+    <section id="wedding">
+      <Wedding />
+    </section>
+    <section id="camping">
+      <Camping />
+    </section>
+    <section id="location">
+      <Venue />
+    </section>
   </Layout>
 )
 
