@@ -5,8 +5,6 @@ import { Link, List, Button, Title, Subtitle, Text } from "../styles/typography"
 
 import Image from "../components/image"
 
-import BrightonPhoto from "../images/brighton.jpg"
-
 const Layout = styled.div`
   width: 100%;
   padding: 150px 0 0;
@@ -27,7 +25,7 @@ const TableColumn = styled.td`
 
 const Space = styled.div`
   height: 40px;
-  border-bottom: 1px solid ${theme.darkgreen};
+  border-bottom: 1px solid #002e1d;
   margin-bottom: 80px;
 `
 
