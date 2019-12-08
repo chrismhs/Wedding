@@ -1,14 +1,14 @@
 import React from "react"
 import styled from "styled-components"
 import theme from "../styles/theme"
-import { TitleCenter } from "../styles/typography"
+import TitleCenter from "../styles/typography"
 
 const Layout = styled.div`
   margin: 0 auto;
   height: 100vh;
 `
 
-const Background = styled.div`
+const BackgroundColor = styled.div`
   background-color: ${theme.darkgreen};
   height: 100vh;
   position: absolute;
@@ -179,7 +179,7 @@ const DownArrow = styled.div`
 
 const Welcome = () => (
   <Layout>
-    <Background>
+    <BackgroundColor>
       <IntroContainer>
         <Intro>
           <Initials>
@@ -244,7 +244,7 @@ const Welcome = () => (
         </RingContainerRight>
       </IntroContainer>
       <DownArrow />
-    </Background>
+    </BackgroundColor>
   </Layout>
 )
 
