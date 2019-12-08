@@ -59,10 +59,21 @@ export const List = styled.li`
   list-style-type: circle;
 `
 
-export const TitleCenter = styled(Title)`
+export const TitleCenter = styled.h1`
   text-align: center;
+  font-size: 2.5rem;
+  font-family: "Playfair Display SC", "Georgia", "serif";
+  font-weight: normal;
+  margin: 30px 0;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `
 
-export const TextCenter = styled(Text)`
+export const TextCenter = styled.p`
   text-align: center;
+  font-size: 1rem;
+  font-family: "Crimson Text", "Georgia", "serif";
+  font-weight: normal;
 `
