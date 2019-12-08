@@ -65,7 +65,7 @@ const Camping = () => (
     <Text>
       Password:<b> marchemanor</b>
     </Text>
-    <Spacer>b</Spacer>
+    <Spacer />
     <Title>Nearby accommodation</Title>
     <Text>
       The house is 25 minutes drive from Shrewsbury but there are a few local
