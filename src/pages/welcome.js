@@ -44,14 +44,14 @@ const Intro = styled.div`
   }
 `
 
-const Initials = styled(TitleCenter)`
-  display: flex;
-  font-size: 3em;
+// const Initials = styled(TitleCenter)`
+//   display: flex;
+//   font-size: 3em;
 
-  @media (max-width: 768px) {
-    font-size: 3em;
-  }
-`
+//   @media (max-width: 768px) {
+//     font-size: 3em;
+//   }
+// `
 
 const Plus = styled.svg`
   fill: #fade88;
@@ -182,7 +182,7 @@ const Welcome = () => (
     <BackgroundColor>
       <IntroContainer>
         <Intro>
-          <Initials>
+          <TitleCenter>
             <div>C</div>
             <div>
               <Plus
@@ -196,7 +196,7 @@ const Welcome = () => (
               </Plus>
             </div>
             <div>R</div>
-          </Initials>
+          </TitleCenter>
         </Intro>
         <RingContainer>
           <Ring>
