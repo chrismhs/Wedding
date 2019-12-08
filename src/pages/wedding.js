@@ -118,7 +118,7 @@ const Wedding = () => (
       </TableRow>
     </Text>
     <br />
-    <Image />
+    <Image src={BrazilPhoto} alt="" />
   </Layout>
 )
 
