@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import theme from "../styles/theme"
 import { Link, Title, Subtitle, Text } from "../styles/typography"
 
 import BrazilPhoto from "../images/brazil.jpg"

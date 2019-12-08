@@ -61,7 +61,7 @@ const Plus = styled.svg`
 const RingContainer = styled.div`
   position: absolute;
   display: flex;
-  margin-top: 40px
+  margin-top: 40px;
   margin-bottom: 0;
   animation: shift 1s ease-in-out 2s forwards;
 
