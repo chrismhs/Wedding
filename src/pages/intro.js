@@ -13,6 +13,10 @@ const Layout = styled.div`
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid ${theme.darkgreen};
+
+  @media (max-width: 768px) {
+    padding: 50px 0;
+  }
 `
 
 const ButtonContainer = styled.div`

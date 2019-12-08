@@ -7,6 +7,7 @@ export const Link = styled.a`
   font-weight: normal;
   color: ${theme.darkpink};
   text-decoration: none;
+  border-bottom: 1px solid ${theme.darkpink};
 `
 
 export const Button = styled.a`
@@ -27,6 +28,10 @@ export const Title = styled.h1`
   font-family: "Playfair Display SC", "Georgia", "serif";
   font-weight: normal;
   margin: 30px 0;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `
 
 export const Subtitle = styled.h1`
@@ -34,6 +39,10 @@ export const Subtitle = styled.h1`
   font-family: "Playfair Display SC", "Georgia", "serif";
   font-weight: normal;
   margin: 30px 0 15px;
+
+  @media (max-width: 768px) {
+    font-size: 1.3rem;
+  }
 `
 
 export const Text = styled.p`

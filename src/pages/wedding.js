@@ -3,11 +3,15 @@ import styled from "styled-components"
 import theme from "../styles/theme"
 import { Link, Title, Subtitle, Text } from "../styles/typography"
 
-import HousePhoto from "../images/house.jpg"
+import BrazilPhoto from "../images/brazil.jpg"
 
 const Layout = styled.div`
   width: 100%;
   padding: 150px 0 0;
+
+  @media (max-width: 768px) {
+    padding: 50px 0 0;
+  }
 `
 
 const TableRow = styled.tr`
@@ -19,13 +23,29 @@ const TableColumn = styled.td`
   min-width: 150px;
 `
 
-const Space = styled.div`
-  height: 40px;
+const TableColumnBold = styled(TableColumn)`
+  font-weight: 500;
 `
 
-const Image = styled.img`
+const Space = styled.div`
+  height: 20px;
+
+  @media (max-width: 768px) {
+    height: 0px;
+  }
+`
+
+const Image = styled.div`
   margin-top: 50px;
-  border: 20px solid ${theme.white};
+  background-image: url(${BrazilPhoto});
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    height: 350px;
+  }
 `
 
 const Wedding = () => (
@@ -41,11 +61,11 @@ const Wedding = () => (
     </Text>
     <Text>
       <TableRow>
-        <TableColumn>From 6pm</TableColumn>
+        <TableColumnBold>From 6pm</TableColumnBold>
         <TableColumn>Camping check-in</TableColumn>
       </TableRow>
       <TableRow>
-        <TableColumn>7pm - 10pm</TableColumn>
+        <TableColumnBold>7pm - 10pm</TableColumnBold>
         <TableColumn>Barbeque (BYOB + food)</TableColumn>
       </TableRow>
     </Text>
@@ -63,23 +83,23 @@ const Wedding = () => (
     </Text>
     <Text>
       <TableRow>
-        <TableColumn>1pm</TableColumn>
+        <TableColumnBold>1pm</TableColumnBold>
         <TableColumn>Find your seats</TableColumn>
       </TableRow>
       <TableRow>
-        <TableColumn>1.30pm</TableColumn>
+        <TableColumnBold>1.30pm</TableColumnBold>
         <TableColumn>The Ceremony</TableColumn>
       </TableRow>
       <TableRow>
-        <TableColumn>2.30pm</TableColumn>
+        <TableColumnBold>2.30pm</TableColumnBold>
         <TableColumn>Reception</TableColumn>
       </TableRow>
       <TableRow>
-        <TableColumn>5pm</TableColumn>
+        <TableColumnBold>5pm</TableColumnBold>
         <TableColumn>Dinner</TableColumn>
       </TableRow>
       <TableRow>
-        <TableColumn>until 1am</TableColumn>
+        <TableColumnBold>until 1am</TableColumnBold>
         <TableColumn>Music and groovin'</TableColumn>
       </TableRow>
     </Text>
@@ -95,12 +115,12 @@ const Wedding = () => (
     </Text>
     <Text>
       <TableRow>
-        <TableColumn>10am</TableColumn>
+        <TableColumnBold>10am</TableColumnBold>
         <TableColumn>Survivor's breakfast</TableColumn>
       </TableRow>
     </Text>
     <br />
-    <Image src={HousePhoto} alt="" />
+    <Image />
   </Layout>
 )
 

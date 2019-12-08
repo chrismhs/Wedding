@@ -1,6 +1,9 @@
 import React from "react"
 import styled from "styled-components"
 import theme from "../styles/theme"
+
+import { confetti } from "dom-confetti"
+
 import {
   Link,
   Button,
@@ -10,35 +13,51 @@ import {
   Text,
 } from "../styles/typography"
 
-import HousePhoto from "../images/house.jpg"
+import HousePhoto from "../images/house-01.jpeg"
 
 const Layout = styled.div`
   width: 100%;
   padding: 150px 0 0;
-`
 
-const TableRow = styled.tr`
-  margin-right: 0px;
-  border: none;
-`
-
-const TableColumn = styled.td`
-  min-width: 150px;
+  @media (max-width: 768px) {
+    padding: 50px 0 0;
+  }
 `
 
 const Space = styled.div`
   height: 40px;
 `
 
-const Image = styled.img`
+const Image = styled.div`
   margin-top: 50px;
-  border: 20px solid ${theme.white};
+  background-image: url(${HousePhoto});
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
   width: 100%;
+
+  @media (max-width: 768px) {
+    height: 350px;
+  }
 `
 
 const ButtonContainer = styled.div`
+  margin: 100px 0;
   text-align: center;
 `
+
+const config = {
+  angle: 90,
+  spread: 45,
+  startVelocity: 45,
+  elementCount: 50,
+  dragFriction: 0.1,
+  duration: 3000,
+  stagger: 0,
+  width: "10px",
+  height: "10px",
+  colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"],
+}
 
 const Camping = () => (
   <Layout>

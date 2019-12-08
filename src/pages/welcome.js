@@ -32,7 +32,7 @@ const Intro = styled.div`
   position: relative;
   color: #fade88;
   justify-content: center;
-  margin-top: -50px;
+  margin-top: -70px;
   opacity: 0;
   animation: slide 1s ease-in-out 2s forwards;
   height: 100px;
@@ -46,6 +46,11 @@ const Intro = styled.div`
 
 const Initials = styled(TitleCenter)`
   display: flex;
+  font-size: 3em;
+
+  @media (max-width: 768px) {
+    font-size: 3em;
+  }
 `
 
 const Plus = styled.svg`
