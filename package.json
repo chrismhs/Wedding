@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "dom-confetti": "^0.1.1",
     "gatsby": "^2.18.4",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-manifest": "^2.2.30",
@@ -18,8 +19,11 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "styled-components": "^4.4.1",
+    "tailwind.macro": "^0.5.10",
+    "tailwindcss": "^1.1.4",
     "typeface-crimson-text": "^0.0.72",
-    "typeface-playfair-display-sc": "^0.0.72"
+    "typeface-playfair-display-sc": "^0.0.72",
+    "typeface-pt-serif": "^0.0.72"
   },
   "devDependencies": {
     "prettier": "^1.19.1"

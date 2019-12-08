@@ -29,7 +29,7 @@ const Space = styled.div`
   margin-bottom: 80px;
 `
 
-const Image2 = styled.div`
+const Image = styled.div`
   margin-top: 50px;
   background-image: url(${BrightonPhoto});
   background-size: cover;
@@ -151,7 +151,7 @@ const Camping = () => (
       <TableColumn>01743 242424</TableColumn>
     </TableRow>
     <br />
-    <Image2 />
+    <Image src={BrightonPhoto} alt="" />
   </Layout>
 )
 
