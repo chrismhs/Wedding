@@ -34,18 +34,7 @@ const Space = styled.div`
   }
 `
 
-const Image = styled.div`
-  margin-top: 50px;
-  background-image: url(${BrazilPhoto});
-  background-size: cover;
-  background-position: center center;
-  height: 600px;
-  width: 100%;
-
-  @media (max-width: 768px) {
-    height: 350px;
-  }
-`
+const Image = styled.img``
 
 const Wedding = () => (
   <Layout>

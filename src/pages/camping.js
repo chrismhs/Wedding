@@ -3,6 +3,8 @@ import styled from "styled-components"
 import theme from "../styles/theme"
 import { Link, List, Button, Title, Subtitle, Text } from "../styles/typography"
 
+import Image from "../components/image"
+
 import BrightonPhoto from "../images/brighton.jpg"
 
 const Layout = styled.div`
@@ -27,19 +29,6 @@ const Space = styled.div`
   height: 40px;
   border-bottom: 1px solid ${theme.darkgreen};
   margin-bottom: 80px;
-`
-
-const Image = styled.div`
-  margin-top: 50px;
-  background-image: url(${BrightonPhoto});
-  background-size: cover;
-  background-position: center center;
-  height: 600px;
-  width: 100%;
-
-  @media (max-width: 768px) {
-    height: 350px;
-  }
 `
 
 const Camping = () => (
@@ -151,7 +140,7 @@ const Camping = () => (
       <TableColumn>01743 242424</TableColumn>
     </TableRow>
     <br />
-    <Image src={BrightonPhoto} alt="" />
+    <Image imageRef={"brighton.jpg"} />
   </Layout>
 )
 
