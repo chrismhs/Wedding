@@ -6,11 +6,20 @@
  */
 
 import React from "react"
+import styled from "styled-components"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Link, TextCenter } from "../styles/typography"
 
 import Header from "./header"
 import "./layout.css"
+
+import "typeface-playfair-display-sc"
+import "typeface-pt-serif"
+
+const Footer = styled.footer`
+  padding: 30px 0;
+`
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -30,16 +39,16 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
+          padding: `0px 2rem 1.45rem`,
           paddingTop: 0,
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <Footer>
+          <TextCenter>
+            Built by <Link href="https://www.gatsbyjs.org">Chris</Link>.
+          </TextCenter>
+        </Footer>
       </div>
     </>
   )

@@ -16,7 +16,13 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "styled-components": "^4.4.1",
+    "tailwind.macro": "^0.5.10",
+    "tailwindcss": "^1.1.4",
+    "typeface-crimson-text": "^0.0.72",
+    "typeface-playfair-display-sc": "^0.0.72",
+    "typeface-pt-serif": "^0.0.72"
   },
   "devDependencies": {
     "prettier": "^1.19.1"

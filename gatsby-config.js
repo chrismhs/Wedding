@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Chris and Rosalys Wedding`,
+    description: `The summer wedding of Chris and Rosalys in the Shropshire countryside`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -16,15 +16,15 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `Chris and Rosalys Wedding`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Chris and Rosalys Wedding`,
+        short_name: `Wedding`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/MainImg.jpg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
