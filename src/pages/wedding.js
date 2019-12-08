@@ -49,7 +49,6 @@ const Image = styled.div`
 
 const Wedding = () => (
   <Layout>
-    <a name="anchor"></a>
     <Title>Weekend events</Title>
 
     <Subtitle>Friday</Subtitle>
