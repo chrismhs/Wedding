@@ -66,6 +66,10 @@ const Wedding = () => (
         <TableColumnBold>7pm - 10pm</TableColumnBold>
         <TableColumn>Barbeque (BYOB + food)</TableColumn>
       </TableRow>
+      <TableRow>
+        <TableColumnBold>8.30pm</TableColumnBold>
+        <TableColumn>DJ set - Artemix</TableColumn>
+      </TableRow>
     </Text>
     <Space />
     <Subtitle>Saturday - The Wedding</Subtitle>

@@ -49,7 +49,7 @@ const Camping = () => (
     {/* <a name="venue"></a> */}
     <Title>Marche Manor</Title>
     <Text>
-      If using a Sat Nav it will tell you that youve arrived when you haven't
+      If using a Sat Nav it will tell you that you've arrived when you haven't
       quite!
     </Text>
     <Text>
@@ -74,7 +74,7 @@ const Camping = () => (
       &amp; white house. It will be sign posted.
     </Text>
     <Text>
-      The entrace on the day is{" "}
+      The entrance on the day is{" "}
       <Link
         href="https://www.google.com/maps/@52.6884963,-2.9855973,3a,75y,204.87h,86.08t/data=!3m6!1e1!3m4!1syDPZDbP39ubARBmFGJd_vA!2e0!7i13312!8i6656"
         target="_blank"

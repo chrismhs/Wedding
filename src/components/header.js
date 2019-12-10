@@ -1,18 +1,27 @@
 // import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import styled from "styled-components"
+import styled, { keyframes } from "styled-components"
 import theme from "../styles/theme"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 
+const fadeIn = keyframes`
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+`
+
 const HeaderContainer = styled.header`
+  opacity: 0;
   position: fixed;
   background-color: ${theme.darkgreen};
   width: 100%;
-  /* height: 56px; */
   padding: 12px;
   display: flex;
   justify-content: center;
+  animation: ${fadeIn} ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
 `
 
 const Anchor = styled(AnchorLink)`

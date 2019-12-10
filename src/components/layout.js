@@ -46,7 +46,11 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <Footer>
           <TextCenter>
-            Built by <Link href="https://www.gatsbyjs.org">Chris</Link>.
+            Built by{" "}
+            <Link href="https://chris.hastings-spital.co.uk" target="_blank">
+              Chris
+            </Link>
+            .
           </TextCenter>
         </Footer>
       </div>
