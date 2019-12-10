@@ -44,29 +44,30 @@ const Image = styled.div`
 
 const Camping = () => (
   <Layout>
-    <Title>Carefree campers</Title>
+    <Title>Carefree camping</Title>
     <Text>BBQs, breakfasts and a bloody good time.</Text>
     <Text>
-      There's plenty of camping space 100m from the wedding where you can either
-      pitch your own tent or rent a plush bell tent. It all depends on your
-      budget! Camper vans are welcome too.
+      We love camping and there's plenty of camping space stumbling distance
+      from the wedding, so you can either pitch your own tent or rent a bell
+      tent. Camper vans are welcome too.
     </Text>
     <Subtitle>Tell me more...</Subtitle>
     <Text>
-      If you need convincing, we've attempted to quell your fears with
-      additional facilities:
+      If you do stay on site, we will be providing additional facilities to make
+      your stay more comfortable.
     </Text>
     <ul>
       <List>Breakfast (Saturday &amp; Sunday morning)</List>
-      <List>Water (bring a water bottle)</List>
+      <List>A kitchenette for teas &amp; water</List>
       <List>Toilets</List>
       <List>Showers</List>
-      <List>Hair-dryer &amp; make-up stations</List>
+      <List>Hair-dryers</List>
       <List>Iron &amp; ironing board</List>
     </ul>
     <Text>
-      As always, tents aren't heated, so bring layers in case it gets cold at
-      night.
+      Bell tents are from £150 per tent (for a couple) for both the Friday and
+      Saturday night. Camping or camper van spots are free. As always, sleeping
+      outside can get chilly, so bring layers in case it gets cold at night.
     </Text>
     <Button
       href="https://victorialilyevents.co.uk/chris-and-rosalys-2020/"
@@ -78,10 +79,10 @@ const Camping = () => (
       Password:<b> marchemanor</b>
     </Text>
     <Spacer />
-    <Title>Nearby accommodation</Title>
+    <Title>Other accommodation</Title>
     <Text>
-      The house is 25 minutes drive from Shrewsbury but there are a few local
-      options also.
+      If you prefer having a proper roof over your head, the house is 25 minutes
+      drive from Shrewsbury and there are a few local options also.
     </Text>
     <Text>
       <TableRow>
@@ -140,7 +141,7 @@ const Camping = () => (
       There are of course many other b&amp;b's or holiday lets in the area.
     </Text>
     <Subtitle>Taxis</Subtitle>
-    <Text>Please book taxis in advance - Uber is not a thing!</Text>
+    <Text>Please book taxis in advance - Uber is not a thing here!</Text>
     <TableRow>
       <TableColumn>Go Carz</TableColumn>
       <TableColumn>01743 441144</TableColumn>

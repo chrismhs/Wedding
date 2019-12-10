@@ -23,7 +23,7 @@ const TableColumn = styled.td`
 `
 
 const TableColumnBold = styled(TableColumn)`
-  font-weight: 500;
+  font-weight: 600;
 `
 
 const Space = styled.div`
@@ -102,8 +102,19 @@ const Wedding = () => (
       </TableRow>
     </Text>
     <Text>
-      <em>Fashion statements: </em>We would ask that guests would dress for a
-      summer wedding, in whatever makes you comfortable and ready to party!
+      <em>Fashion statements: </em>Dress for a summer wedding, in whatever makes
+      you comfortable and ready to party!
+    </Text>
+    <Text>
+      <em>Children: </em>Unfortunately, we are unable to accommodate children
+      unless you are family.
+    </Text>
+    <Text>
+      <em>Gifts: </em>If you feel the need to give a gift, we love our little
+      flat in London and are always looking for ways to redecorate! We are also
+      hugely looking forward to our honeymoon in Greece, the Monday after the
+      wedding! If you would like to contribute to either of these or have
+      anything else in mind, we would be hugely grateful.
     </Text>
     <Space />
     <Subtitle>Sunday</Subtitle>

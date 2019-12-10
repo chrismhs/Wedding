@@ -39,9 +39,14 @@ const Intro = () => (
       >
         Marche Manor
       </Link>{" "}
-      where Chris holds many fond memories of his childhood. With our ceremony,
-      reception and camping options on site, we can't wait to celebrate with you
-      on our wedding day in the heart of the Shropshire countryside.
+      where Chris holds many fond memories of his childhood and where he asked
+      Rose to be his girlfriend over 5 years ago on their 3rd date (when you
+      know, you know)!
+    </TextCenter>
+    <TextCenter>
+      With our ceremony, reception and camping options on site, we can't wait to
+      celebrate with you on our wedding day in the heart of the Shropshire
+      countryside.
     </TextCenter>
     <ButtonContainer>
       <Button href="https://forms.gle/ybU5Aedrw5Ym3aSm9" target="_blank">

@@ -31,11 +31,14 @@ const Anchor = styled(AnchorLink)`
 `
 
 const Header = ({ siteTitle }) => (
-  <HeaderContainer>
-    <Anchor href="#wedding">The Wedding</Anchor>
-    <Anchor href="#camping">Camping</Anchor>
-    <Anchor href="#location">Location</Anchor>
-  </HeaderContainer>
+  <div>
+    <HeaderContainer>
+      <Anchor href="#welcome">Welcome</Anchor>
+      <Anchor href="#wedding">Weekend</Anchor>
+      <Anchor href="#camping">Stay</Anchor>
+      <Anchor href="#location">Location</Anchor>
+    </HeaderContainer>
+  </div>
 )
 
 Header.propTypes = {
