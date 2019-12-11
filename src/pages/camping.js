@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import theme from "../styles/theme"
 import { Link, List, Button, Title, Subtitle, Text } from "../styles/typography"
 
@@ -69,12 +70,12 @@ const Camping = () => (
       Saturday night. Camping or camper van spots are free. As always, sleeping
       outside can get chilly, so bring layers in case it gets cold at night.
     </Text>
-    <Button
+    <OutboundLink
       href="https://victorialilyevents.co.uk/chris-and-rosalys-2020/"
       target="_blank"
     >
-      Book a bell tent
-    </Button>
+      <Button target="_blank">Book a bell tent</Button>
+    </OutboundLink>
     <Text>
       Password:<b> marchemanor</b>
     </Text>

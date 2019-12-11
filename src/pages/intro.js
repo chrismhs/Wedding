@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import theme from "../styles/theme"
 import { Link, Button, TitleCenter, TextCenter } from "../styles/typography"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const Layout = styled.div`
   width: 100%;
@@ -19,6 +20,10 @@ const Layout = styled.div`
   }
 `
 
+const OutboundLinkStyled = styled(OutboundLink)`
+  text-decoration: none;
+`
+
 const ButtonContainer = styled.div`
   text-align: center;
 `
@@ -27,9 +32,12 @@ const Intro = () => (
   <Layout>
     <TitleCenter>4th July 2020</TitleCenter>
     <TextCenter>
-      <Link target="blank" href="https://www.addevent.com/event/TW3460747">
-        Add to calendar
-      </Link>
+      <OutboundLinkStyled
+        target="blank"
+        href="https://www.addevent.com/event/TW3460747"
+      >
+        <Link>Add to calendar</Link>
+      </OutboundLinkStyled>
     </TextCenter>
     <TextCenter>
       We feel very lucky to be able to welcome you to{" "}
