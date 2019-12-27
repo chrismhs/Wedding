@@ -125,9 +125,9 @@ const Wedding = () => (
       hugely looking forward to our honeymoon in Greece, the Monday after the
       wedding! If you would like to contribute to either of these, please visit
       our{" "}
-      <a href="https://www.weddingshop.com/Buy/View/65694" target="_blank">
+      <Link href="https://www.weddingshop.com/Buy/View/65694" target="_blank">
         gift website
-      </a>
+      </Link>
       .
     </Text>
     <Space />
