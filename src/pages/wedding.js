@@ -120,11 +120,15 @@ const Wedding = () => (
       unless you are family.
     </Text>
     <Text>
-      <em>Gifts: </em>If you feel the need to give a gift, we love our little
-      flat in London and are always looking for ways to redecorate! We are also
+      <em>Gifts: </em>If you would like to give a gift, we love our little flat
+      in London and are always looking for ways to redecorate! We are also
       hugely looking forward to our honeymoon in Greece, the Monday after the
-      wedding! If you would like to contribute to either of these or have
-      anything else in mind, we would be hugely grateful.
+      wedding! If you would like to contribute to either of these, please visit
+      our{" "}
+      <a href="https://www.weddingshop.com/Buy/View/65694" target="_blank">
+        gift website
+      </a>
+      .
     </Text>
     <Space />
     <Subtitle>Sunday</Subtitle>
