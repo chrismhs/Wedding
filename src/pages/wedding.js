@@ -85,6 +85,12 @@ const Wedding = () => (
     </Text>
     <Text>
       <TableRow>
+        <TableColumnBold>8.30am until 11.30am</TableColumnBold>
+        <TableColumn>
+          Breakfast bap, tea and coffee (for those camping)
+        </TableColumn>
+      </TableRow>
+      <TableRow>
         <TableColumnBold>1pm</TableColumnBold>
         <TableColumn>Find your seats</TableColumn>
       </TableRow>
