@@ -49,8 +49,9 @@ const Camping = () => (
     {/* <a name="venue"></a> */}
     <Title>Marche Manor</Title>
     <Text>
-      If using a Sat Nav it will tell you that you've arrived when you haven't
-      quite!
+      The address is Marche Manor, Halfway House, SY5 9DE. Please note, though,
+      that if you are using a Sat Nav, it will tell you that you've arrived when
+      you haven't quite!
     </Text>
     <Text>
       From Shrewsbury take the A458 towards Welshpool. Turn left at the white
@@ -66,6 +67,13 @@ const Camping = () => (
         here
       </Link>
       .
+    </Text>
+    <Subtitle>Coming by train</Subtitle>
+    <Text>
+      The nearest train station is in Shrewsbury and is about 3 hours from
+      London. It's about 20 minutes by taxi to the house, which you should be
+      able to flag down from outside the station. It doesn't hurt to pre-book
+      one if you have the time.
     </Text>
     <Subtitle>Driving in on the day</Subtitle>
     <Text>

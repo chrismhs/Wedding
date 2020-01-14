@@ -67,8 +67,10 @@ const Camping = () => (
     </ul>
     <Text>
       Bell tents are from £150 per tent (for a couple) for both the Friday and
-      Saturday night. Camping or camper van spots are free. As always, sleeping
-      outside can get chilly, so bring layers in case it gets cold at night.
+      Saturday night. Bedding for two is included in the bell tent price, but
+      speaking from experience it's worth bringing a sleeping bag if you are a
+      cold sleeper. Spots are availble to pitch your own tent or if you are
+      coming in a camper van.
     </Text>
     <OutboundLink
       href="https://victorialilyevents.co.uk/chris-and-rosalys-2020/"
