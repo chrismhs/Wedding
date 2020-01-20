@@ -19,7 +19,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Chris and Rosalys Wedding`,
-        short_name: `Wedding`,
+        short_name: `C+R Wedding`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
