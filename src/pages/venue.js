@@ -8,6 +8,7 @@ import {
   TextCenter,
   Subtitle,
   Text,
+  BigText,
 } from "../styles/typography"
 
 import HousePhoto from "../images/house-01.jpeg"
@@ -27,16 +28,39 @@ const Space = styled.div`
 `
 
 const Image = styled.div`
-  margin-top: 50px;
+  margin: 0 -10% 50px;
   background-image: url(${HousePhoto});
   background-size: cover;
   background-position: center center;
   height: 600px;
-  width: 100%;
+  width: 120%;
+
+  @media (max-width: 1050px) {
+    width: 100%;
+    margin: 0 0 50px;
+  }
 
   @media (max-width: 768px) {
     height: 350px;
+    margin: 0 0 50px 0;
   }
+`
+const LocationTitle = styled.div`
+  margin: 50px 0 0 -10%;
+
+  @media (max-width: 1050px) {
+    margin: 50px 0 0 0px;
+  }
+`
+
+const BackgroundColor = styled.div`
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: -5;
+  height: 850px;
+  min-height: 600px;
 `
 
 const ButtonContainer = styled.div`
@@ -44,10 +68,25 @@ const ButtonContainer = styled.div`
   text-align: center;
 `
 
-const Camping = () => (
+const Venue = () => (
   <Layout>
-    {/* <a name="venue"></a> */}
-    <Title>Marche Manor</Title>
+    <Image
+      data-sal="fade"
+      data-sal-delay="000"
+      data-sal-duration="600"
+      data-sal-easing="cubic-bezier(.55, .085, .68, .53)"
+      alt=""
+    />
+    <LocationTitle>
+      <BigText
+        data-sal="fade"
+        data-sal-delay="300"
+        data-sal-duration="600"
+        data-sal-easing="cubic-bezier(.55, .085, .68, .53)"
+      >
+        Marche Manor
+      </BigText>
+    </LocationTitle>
     <Text>Address: Marche Manor, Halfway House, SY5 9DE</Text>
     <Text>
       <em>Please note,</em> that if you are using a Sat Nav, it will tell you
@@ -93,8 +132,9 @@ const Camping = () => (
       .
     </Text>
     <br />
-    <Image src={HousePhoto} alt="" />
+
     <Space />
+    <BackgroundColor />
     <Link name="rsvp"></Link>
     <ButtonContainer>
       <TitleCenter>Any questions?</TitleCenter>
@@ -115,4 +155,4 @@ const Camping = () => (
   </Layout>
 )
 
-export default Camping
+export default Venue

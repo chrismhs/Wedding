@@ -1,5 +1,5 @@
 export default {
   darkgreen: "#002E1D",
-  darkpink: "#A13B6C",
+  darkpink: "#852228",
   white: "#ffffff",
 }

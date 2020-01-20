@@ -2,7 +2,15 @@ import React from "react"
 import styled from "styled-components"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 import theme from "../styles/theme"
-import { Link, List, Button, Title, Subtitle, Text } from "../styles/typography"
+import {
+  Link,
+  List,
+  Button,
+  Title,
+  Subtitle,
+  Text,
+  BigText,
+} from "../styles/typography"
 
 import BrightonPhoto from "../images/brighton.jpg"
 
@@ -24,27 +32,51 @@ const TableColumn = styled.td`
   min-width: 150px;
 `
 
-const Spacer = styled.div`
-  height: 40px;
-  border-bottom: 1px solid ${theme.darkgreen};
-  margin-bottom: 80px;
-`
-
 const Image = styled.div`
-  margin-top: 50px;
+  margin: 0 -10% 50px;
   background-image: url(${BrightonPhoto});
   background-size: cover;
   background-position: center center;
   height: 600px;
-  width: 100%;
+  width: 120%;
+
+  @media (max-width: 1050px) {
+    width: 100%;
+    margin: 0 0 50px;
+  }
 
   @media (max-width: 768px) {
     height: 350px;
+    margin: 0 0 50px 0;
+  }
+`
+const LocationTitle = styled.div`
+  margin: 50px 0 0 -10%;
+
+  @media (max-width: 1050px) {
+    margin: 50px 0 0 0px;
   }
 `
 
 const Camping = () => (
   <Layout>
+    <Image
+      data-sal="fade"
+      data-sal-delay="000"
+      data-sal-duration="600"
+      data-sal-easing="cubic-bezier(.55, .085, .68, .53)"
+      alt=""
+    />
+    <LocationTitle>
+      <BigText
+        data-sal="fade"
+        data-sal-delay="300"
+        data-sal-duration="600"
+        data-sal-easing="cubic-bezier(.55, .085, .68, .53)"
+      >
+        Where to stay
+      </BigText>
+    </LocationTitle>
     <Title>Carefree camping</Title>
     <Text>BBQs, breakfasts and a bloody good time.</Text>
     <Text>
@@ -81,7 +113,7 @@ const Camping = () => (
     <Text>
       Password:<b> marchemanor</b>
     </Text>
-    <Spacer />
+
     <Title>Other accommodation</Title>
     <Text>
       If you prefer having a proper roof over your head, the house is 25 minutes
@@ -165,8 +197,6 @@ const Camping = () => (
       <TableColumn>Shrewsbury Taxis</TableColumn>
       <TableColumn>01743 242424</TableColumn>
     </TableRow>
-    <br />
-    <Image />
   </Layout>
 )
 

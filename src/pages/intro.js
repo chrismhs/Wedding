@@ -48,6 +48,7 @@ const Intro = () => (
     <BackgroundColor />
     <ContentWrapper>
       <TitleCenter>4th July 2020</TitleCenter>
+
       <TextCenter>
         <OutboundLinkStyled
           target="blank"
@@ -73,6 +74,7 @@ const Intro = () => (
         to celebrate with you on our wedding day in the heart of the Shropshire
         countryside.
       </TextCenter>
+
       <ButtonContainer>
         <Button href="https://forms.gle/ybU5Aedrw5Ym3aSm9" target="_blank">
           RSVP

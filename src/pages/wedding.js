@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { Link, Title, Subtitle, Text } from "../styles/typography"
+import { Link, Title, Subtitle, Text, BigText } from "../styles/typography"
 
 import BrazilPhoto from "../images/brazil.jpg"
 
@@ -26,30 +26,52 @@ const TableColumnBold = styled(TableColumn)`
   font-weight: 600;
 `
 
-const Space = styled.div`
-  height: 20px;
-
-  @media (max-width: 768px) {
-    height: 0px;
-  }
-`
-
 const Image = styled.div`
-  margin-top: 50px;
+  margin: -25vh -10% 50px;
   background-image: url(${BrazilPhoto});
   background-size: cover;
   background-position: center center;
   height: 600px;
-  width: 100%;
+  width: 120%;
+
+  @media (max-width: 1050px) {
+    width: 100%;
+    margin: -25vh 0 50px;
+  }
 
   @media (max-width: 768px) {
     height: 350px;
+    margin: 0 0 50px 0;
+  }
+`
+const LocationTitle = styled.div`
+  margin: 50px 0 0 -10%;
+
+  @media (max-width: 1050px) {
+    margin: 50px 0 0 0px;
   }
 `
 
 const Wedding = () => (
   <Layout>
-    <Title>Weekend events</Title>
+    <Image
+      data-sal="fade"
+      data-sal-delay="000"
+      data-sal-duration="600"
+      data-sal-easing="cubic-bezier(.55, .085, .68, .53)"
+      src={BrazilPhoto}
+      alt=""
+    />
+    <LocationTitle>
+      <BigText
+        data-sal="fade"
+        data-sal-delay="300"
+        data-sal-duration="600"
+        data-sal-easing="cubic-bezier(.55, .085, .68, .53)"
+      >
+        Weekend events
+      </BigText>
+    </LocationTitle>
 
     <Subtitle>Friday</Subtitle>
     <Text>
@@ -140,8 +162,6 @@ const Wedding = () => (
         <TableColumn>Survivor's breakfast</TableColumn>
       </TableRow>
     </Text>
-    <br />
-    <Image src={BrazilPhoto} alt="" />
   </Layout>
 )
 

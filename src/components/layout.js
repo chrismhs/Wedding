@@ -15,6 +15,7 @@ import Header from "./header"
 import "./layout.css"
 
 import "typeface-playfair-display-sc"
+import "typeface-playfair-display"
 import "typeface-crimson-text"
 
 const Footer = styled.footer`

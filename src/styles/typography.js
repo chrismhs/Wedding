@@ -34,6 +34,23 @@ export const Title = styled.h1`
   }
 `
 
+export const BigText = styled.p`
+  font-size: 4rem;
+  font-family: "Playfair Display", "Georgia", "serif";
+  font-weight: normal;
+  margin: 30px 0 50px;
+
+  font-style: italic;
+
+  @media (max-width: 1200px) {
+    font-size: 3.5rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 3rem;
+  }
+`
+
 export const Subtitle = styled.h1`
   font-size: 1.5rem;
   font-family: "Playfair Display SC", "Georgia", "serif";
