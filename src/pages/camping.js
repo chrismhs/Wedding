@@ -117,24 +117,36 @@ const Camping = () => (
       </TableRow>
       <TableRow>
         <TableColumn>
+          <Link href="http://www.darwinstownhouse.com/" target="_blank">
+            Darwins Townhouse Hotel
+          </Link>
+        </TableColumn>
+        <TableColumn>Shrewsbury</TableColumn>
+      </TableRow>
+      <TableRow>
+        <TableColumn>
           <Link href="https://www.princeruperthotel.co.uk/" target="_blank">
             Prince Rupert
           </Link>
         </TableColumn>
         <TableColumn>Shrewsbury</TableColumn>
       </TableRow>
+
       <TableRow>
         <TableColumn>
-          <Link href="https://thelordhill.co.uk/" target="_blank">
-            Lord Hill
+          <Link href="http://theexchangeshrewsbury.com/" target="_blank">
+            Morgans
           </Link>
         </TableColumn>
         <TableColumn>Shrewsbury</TableColumn>
       </TableRow>
       <TableRow>
         <TableColumn>
-          <Link href="http://theexchangeshrewsbury.com/" target="_blank">
-            Morgans
+          <Link
+            href="https://all.accor.com/hotel/6629/index.en.shtml"
+            target="_blank"
+          >
+            Mercure Shrewsbury Albrighton Hall
           </Link>
         </TableColumn>
         <TableColumn>Shrewsbury</TableColumn>

@@ -38,7 +38,8 @@ export const Subtitle = styled.h1`
   font-size: 1.5rem;
   font-family: "Playfair Display SC", "Georgia", "serif";
   font-weight: normal;
-  margin: 30px 0 15px;
+  margin: 45px 0 15px;
+  padding-top: 15px;
 
   @media (max-width: 768px) {
     font-size: 1.3rem;

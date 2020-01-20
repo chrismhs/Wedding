@@ -71,7 +71,6 @@ const Wedding = () => (
         <TableColumn>DJ set - Artemix</TableColumn>
       </TableRow>
     </Text>
-    <Space />
     <Subtitle>Saturday - The Wedding</Subtitle>
     <Text>
       The entire wedding will be held at{" "}
@@ -130,7 +129,6 @@ const Wedding = () => (
       </Link>
       .
     </Text>
-    <Space />
     <Subtitle>Sunday</Subtitle>
     <Text>
       If you fancy breakfast the day after, we'll be providing it. Just let us

@@ -12,7 +12,7 @@ const BackgroundColor = styled.div`
   background-color: ${theme.darkgreen};
   height: 100vh;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   left: 0;
   z-index: -1;
 `
