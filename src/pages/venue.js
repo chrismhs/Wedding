@@ -110,10 +110,10 @@ const Venue = () => (
     <Subtitle>Coming by train</Subtitle>
     <Text>
       The nearest train station is Shrewsbury. You can travel from London Euston
-      (via Crew or Birmingham International) which will take aprox 2.5 hours.
-      You will then need to take a 20 minute taxi to the house which you should
-      be able to flag down outside the station, although it doesn't hurt to
-      pre-book one if you have the time.
+      (via Crew or Birmingham International), which will take approximately 2.5
+      hours. You will then need to take a 20 minute taxi to the house, which you
+      should be able to flag down outside the station, although it doesn't hurt
+      to pre-book one if you have the time.
     </Text>
     <Subtitle>Driving in on the day</Subtitle>
     <Text>

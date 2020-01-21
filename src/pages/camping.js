@@ -167,7 +167,7 @@ const Camping = () => (
       <TableRow>
         <TableColumn>
           <Link href="http://theexchangeshrewsbury.com/" target="_blank">
-            Morgans
+            The Exchange
           </Link>
         </TableColumn>
         <TableColumn>Shrewsbury</TableColumn>

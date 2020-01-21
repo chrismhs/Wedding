@@ -59,10 +59,7 @@ const Intro = () => (
       </TextCenter>
       <TextCenter>
         We feel very lucky to be able to welcome you to{" "}
-        <Link
-          href="https://www.google.com/maps/@52.6884963,-2.9855973,3a,75y,204.87h,86.08t/data=!3m6!1e1!3m4!1syDPZDbP39ubARBmFGJd_vA!2e0!7i13312!8i6656"
-          target="_blank"
-        >
+        <Link href="https://goo.gl/maps/K3T8puL6ymQTNiU56" target="_blank">
           Marche Manor
         </Link>{" "}
         where Chris holds many fond memories of his childhood and where he asked
