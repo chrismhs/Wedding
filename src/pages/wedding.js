@@ -75,9 +75,9 @@ const Wedding = () => (
 
     <Subtitle>Friday</Subtitle>
     <Text>
-      For those of you who would like to camp, the barbeque will be fired up,
-      ready to go - just bring whatever you want to eat and drink. Anyone not
-      staying on site, you are also very welcome to join!
+      If you fancy saying hi the night before, the barbeque will be fired up -
+      just bring whatever you would like to drink. We aim to wrap up early-ish
+      so please eat on route if you are arriving later.
     </Text>
     <Text>
       <TableRow>
@@ -85,12 +85,16 @@ const Wedding = () => (
         <TableColumn>Camping check-in</TableColumn>
       </TableRow>
       <TableRow>
-        <TableColumnBold>7pm - 10pm</TableColumnBold>
-        <TableColumn>Barbeque (BYOB + food)</TableColumn>
+        <TableColumnBold>7pm - 9.30pm</TableColumnBold>
+        <TableColumn>Barbeque (Bring your own drinks)</TableColumn>
       </TableRow>
       <TableRow>
         <TableColumnBold>8.30pm</TableColumnBold>
-        <TableColumn>DJ set - Artemix</TableColumn>
+        <TableColumn>Sunset DJ set - Artemix</TableColumn>
+      </TableRow>
+      <TableRow>
+        <TableColumnBold>10pm</TableColumnBold>
+        <TableColumn>Wrap up</TableColumn>
       </TableRow>
     </Text>
     <Subtitle>Saturday - The Wedding</Subtitle>
