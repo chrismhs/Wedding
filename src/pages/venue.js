@@ -3,7 +3,6 @@ import styled from "styled-components"
 import {
   Link,
   Button,
-  Title,
   TitleCenter,
   TextCenter,
   Subtitle,

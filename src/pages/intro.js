@@ -47,14 +47,14 @@ const Intro = () => (
   <Layout>
     <BackgroundColor />
     <ContentWrapper>
-      <TitleCenter>4th July 2020</TitleCenter>
+      <TitleCenter>19th June 2021</TitleCenter>
 
       <TextCenter>
         <OutboundLinkStyled
           target="blank"
           href="https://www.addevent.com/event/TW3460747"
         >
-          <Link>Add to calendar</Link>
+          <Link>Add the new, better date to your calendar</Link>
         </OutboundLinkStyled>
       </TextCenter>
       <TextCenter>

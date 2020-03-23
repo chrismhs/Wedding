@@ -23,8 +23,8 @@ module.exports = {
         name: `Chris and Rosalys Wedding`,
         short_name: `C+R Wedding`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#002E1D`,
+        theme_color: `#002E1D`,
         display: `minimal-ui`,
         icon: `src/images/MainImg.jpg`, // This path is relative to the root of the site.
       },
