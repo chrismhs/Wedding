@@ -77,7 +77,7 @@ const Camping = () => (
       </BigText>
     </LocationTitle>
     <Title>Carefree camping</Title>
-    <Text>BBQs, breakfasts and a bloody good time.</Text>
+    <Text>Pizzas, breakfasts and a bloody good time.</Text>
     <Text>
       We love camping and there's plenty of camping space stumbling distance
       from the wedding, so you can either pitch your own tent or rent a bell
