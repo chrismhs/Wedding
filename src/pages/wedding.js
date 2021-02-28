@@ -75,7 +75,7 @@ const Wedding = () => (
 
     <Subtitle>Friday</Subtitle>
     <Text>
-      If you fancy saying hi the night before, the barbeque will be fired up -
+      If you fancy saying hi the night before, the pizza truck will be fired up -
       just bring whatever you would like to drink. We aim to wrap up early-ish
       so please eat on route if you are arriving later.
     </Text>
