@@ -47,15 +47,9 @@ const Intro = () => (
   <Layout>
     <BackgroundColor />
     <ContentWrapper>
-      <TitleCenter>19th June 2021</TitleCenter>
-
+      <TitleCenter>24th July 2021</TitleCenter>
       <TextCenter>
-        <OutboundLinkStyled
-          target="blank"
-          href="https://www.addevent.com/event/TW3460747"
-        >
-          <Link>Add the new, better date to your calendar</Link>
-        </OutboundLinkStyled>
+        They say that the third time's the charm...
       </TextCenter>
       <TextCenter>
         We feel very lucky to be able to welcome you to{" "}
@@ -63,7 +57,7 @@ const Intro = () => (
           Marche Manor
         </Link>{" "}
         where Chris holds many fond memories of his childhood and where he asked
-        Rose to be his girlfriend over 5 years ago on their 3rd date (when you
+        Rose to be his girlfriend over 6 years ago on their 3rd date (when you
         know, you know)!
       </TextCenter>
       <TextCenter>
@@ -73,7 +67,7 @@ const Intro = () => (
       </TextCenter>
 
       <ButtonContainer>
-        <Button href="https://forms.gle/ybU5Aedrw5Ym3aSm9" target="_blank">
+        <Button href="https://forms.gle/4aiAism313NRdJW99" target="_blank">
           RSVP
         </Button>
       </ButtonContainer>

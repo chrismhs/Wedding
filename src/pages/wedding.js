@@ -85,8 +85,8 @@ const Wedding = () => (
         <TableColumn>Camping check-in</TableColumn>
       </TableRow>
       <TableRow>
-        <TableColumnBold>7pm - 9.30pm</TableColumnBold>
-        <TableColumn>Barbeque (Bring your own drinks)</TableColumn>
+        <TableColumnBold>7pm - 9pm</TableColumnBold>
+        <TableColumn>Pizza Truck Dinner</TableColumn>
       </TableRow>
       <TableRow>
         <TableColumnBold>8.30pm</TableColumnBold>
@@ -145,25 +145,20 @@ const Wedding = () => (
       unless you are family.
     </Text>
     <Text>
-      <em>Gifts: </em>If you would like to give a gift, we love our little flat
-      in London and are always looking for ways to redecorate! We are also
-      hugely looking forward to our honeymoon in Greece, the Monday after the
-      wedding! If you would like to contribute to either of these, please visit
-      our{" "}
+      <em>Gifts: </em>As many of you know, we are moving to Vancouver in Canada later this year, so if you want to gift us something, make sure it can travel too. You can also gift money using our {" "}
       <Link href="https://www.weddingshop.com/Buy/View/65694" target="_blank">
         gift website
       </Link>
-      .
+       &nbsp;(sorry, we are unable to update the honeymoon description on here.)
     </Text>
     <Subtitle>Sunday</Subtitle>
     <Text>
-      If you fancy breakfast the day after, we'll be providing it. Just let us
-      know when you RSVP.
+      For campers, there will be breakfast the day after.
     </Text>
     <Text>
       <TableRow>
         <TableColumnBold>10am</TableColumnBold>
-        <TableColumn>Survivor's breakfast</TableColumn>
+        <TableColumn>Camper's breakfast</TableColumn>
       </TableRow>
     </Text>
   </Layout>
