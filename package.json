@@ -2,7 +2,7 @@
   "name": "Chris-and-Rosalys-Wedding",
   "private": true,
   "description": "Our wedding in the Shropshire countryside",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Chris Hastings-Spital <chrismhs@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
