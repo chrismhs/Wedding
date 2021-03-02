@@ -86,7 +86,14 @@ const Venue = () => (
         Marche Manor
       </BigText>
     </LocationTitle>
-    <Text>Address: Marche Manor, Halfway House, SY5 9DE</Text>
+    <Text>Address:&nbsp;
+      <Link
+        href="https://www.google.com/maps/@52.6880025,-2.9860512,238m/data=!3m1!1e3"
+        target="_blank"
+      >
+        Marche Manor, Halfway House, SY5 9DE
+      </Link>
+    S</Text>
     <Text>
       <em>Please note,</em> that if you are using a Sat Nav, it will tell you
       that you've arrived when you haven't quite!
