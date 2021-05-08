@@ -93,7 +93,7 @@ const Venue = () => (
       >
         Marche Manor, Halfway House, SY5 9DE
       </Link>
-    S</Text>
+    </Text>
     <Text>
       <em>Please note,</em> that if you are using a Sat Nav, it will tell you
       that you've arrived when you haven't quite!
