@@ -76,7 +76,7 @@ const Wedding = () => (
     <Subtitle>Friday</Subtitle>
     <Text>
       If you fancy saying hi the night before, the pizza truck will be fired up -
-      just bring whatever you would like to drink. We aim to wrap up early-ish
+      just bring whatever you would like to drink (we'll have some rosé and beers for those who forget). We aim to wrap up early-ish
       so please eat on route if you are arriving later.
     </Text>
     <Text>
@@ -89,7 +89,7 @@ const Wedding = () => (
         <TableColumn>Pizza Truck Dinner</TableColumn>
       </TableRow>
       <TableRow>
-        <TableColumnBold>8.30pm</TableColumnBold>
+        <TableColumnBold>8pm</TableColumnBold>
         <TableColumn>Sunset DJ set - Artemix</TableColumn>
       </TableRow>
       <TableRow>

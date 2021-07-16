@@ -97,20 +97,8 @@ const Camping = () => (
       <List>Iron &amp; ironing board</List>
     </ul>
     <Text>
-      Bell tents are from £150 per tent (for a couple) for both the Friday and
-      Saturday night. Bedding for two is included in the bell tent price, but
-      speaking from experience it's worth bringing a sleeping bag if you are a
-      cold sleeper. Spots are availble to pitch your own tent or if you are
+      Spots are availble to pitch your own tent or if you are
       coming in a camper van.
-    </Text>
-    <OutboundLink
-      href="https://victorialilyevents.co.uk/chris-and-rosalys-2020/"
-      target="_blank"
-    >
-      <Button target="_blank">Book a bell tent</Button>
-    </OutboundLink>
-    <Text>
-      Password:<b> marchemanor</b>
     </Text>
 
     <Title>Other accommodation</Title>
